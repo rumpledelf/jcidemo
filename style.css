@@ -16,15 +16,17 @@ h1,h2,h3,h4,h5,h6{
 }
 #menu{
 	background-color: #1b57b2;
-	padding: 10px 0;
 	text-align: center;
 }
 #menu a{
 	color: white;
-	margin: 0 20px;
+	display: inline-block;
+	padding: 10px 20px;
 }
 #menu a:hover{
-	color: #eee;
+	color: #1b57b2;
+	background-color: #ddd;
+	text-decoration: none;
 }
 #header{
 	background-color: white;
